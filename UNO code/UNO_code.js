@@ -71,7 +71,7 @@ class Player{ //class definition for all player actions.
     for (var i=0; i<n; i++){this.hand.push(deck.shift())}
   }
   newHand(arr){ //new hand
-    for (var i=0; i<10; i++){this.hand.push(arr.shift())}
+    for (var i=0; i<7; i++){this.hand.push(arr.shift())}
   }
   move(card,field,deck){
     if (card[0]=="SKIP"){
@@ -253,11 +253,11 @@ var p=new Player(); // create a new real player
 var f=new Field(); //create the field for the card
 var d=new Deck(); //create the deck
 d.randomize(); //shuffling the deck
+p.newHand(d.arr); //create a new hand for player 
+cpu.newHand(d.arr); // create a new hand for  CPU
 f.newField(d.arr); //i'm picking new card for field
 //console.log(d.arr);
 var name=prompt("Choose a name player:"); //new name for player
-p.newHand(d.arr); //create a new hand for player 
-cpu.newHand(d.arr); // create a new hand for  CPU
 
 while (true){ //main function 
   f.view(); //view always the card field at starting of the new turn
