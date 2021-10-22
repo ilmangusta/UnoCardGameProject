@@ -259,7 +259,7 @@ f.newField(d.arr); //i'm picking new card for field
 //console.log(d.arr);
 var name=prompt("Choose a name player:"); //new name for player
 
-while (true){ //main function 
+while (d.arr.length!=0){ //main function 
   f.view(); //view always the card field at starting of the new turn
   console.log("Your actual hand is:\n")
   console.log(p.hand);
@@ -289,6 +289,16 @@ while (true){ //main function
   }
 
   console.log("Deck still have " + d.arr.length + " cards!"); //checking how many cards are left
+}
+if (p.hand.length==cpu.hand.length){
+  console.log("Ended in a draw!!");
+}else{
+  console.log("The Winner is:");
+  if (p.hand.length<cpu.hand.length){
+    console.log(name+ "!!");
+  }else{
+    console.log(" CPU!!")
+  }
 }
 
 
