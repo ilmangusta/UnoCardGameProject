@@ -45,7 +45,7 @@ class Field{ //class definition to simplify the method how we view the actual fi
     var card=[0,0];
     var swap;
     for (var i=0; i<deck.length; i++){
-      if (deck[i][0]=="+2CARDS" || deck[i][0]=="+4"){continue};
+      if (deck[i][0]=="+2CARDS" || deck[i][0]=="+4CARDS"){continue};
       if (deck[i][0]>=0 || deck[i][0]<=9){
         card[0]=deck[i][0];
         card[1]=deck[i][1];
