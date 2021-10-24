@@ -305,10 +305,9 @@ if (p.hand.length==cpu.hand.length){
 
 
 /*
-contributors to this file:
-Luca B.
-Niccolò C.
-Leonardo P.
+Cotributors:
+- ilmangusta: https://github.com/ilmangusta
+- NickRunners: https://github.com/NickRunners
 */
 
 
