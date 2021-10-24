@@ -305,7 +305,7 @@ if (p.hand.length==cpu.hand.length){
 
 
 /*
-Cotributors:
+Contributors:
 - ilmangusta: https://github.com/ilmangusta
 - NickRunners: https://github.com/NickRunners
 */
