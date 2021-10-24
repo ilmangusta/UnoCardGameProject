@@ -154,7 +154,7 @@ class Cpu{ //class definition for all cpu actions.
     for (var i=0; i<n; i++){this.hand.push(deck.shift())};
   }
   newHand(arr){ //new hand
-    for (var i=0; i<10; i++){this.hand.push(arr.shift())}
+    for (var i=0; i<7; i++){this.hand.push(arr.shift())}
   }
   move(field,deck){
     var card;
