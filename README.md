@@ -48,4 +48,3 @@ The user is the first who starts and he has to put one card on the field. Player
 
 ## Credits 📃
 - ilmangusta: https://github.com/ilmangusta
-- NickRunners: https://github.com/NickRunners
