@@ -1,0 +1,6 @@
+### TO DO UPDATING 
+
+1. Try to figure out how modify code for single player mode with more than one CPU player;
+2. Add an interface graphic to view the user cards in hand every turn;
+3. Be creative...
+4. ...
