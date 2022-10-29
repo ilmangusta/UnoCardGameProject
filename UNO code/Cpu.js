@@ -8,6 +8,13 @@ class Cpu{ //class definition for all cpu actions.
   newHand(arr){ //new hand
     for (var i=0; i<7; i++){this.hand.push(arr.shift())}
   }
+   function randomColor(){ //function to help to random color for cpu when using +4 or CHANGE color card
+    var number=Math.floor(Math.random() * 4);
+    if (number==0){return number="R"};
+    if (number==1){return number="B"};
+    if (number==2){return number="G"};
+    if (number==3){return number="Y"};
+  }
   move(field,deck){
     var card;
     for (var i=0; i<this.hand.length; i++){
