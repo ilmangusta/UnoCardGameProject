@@ -43,8 +43,11 @@ The first player to run out of cards in his hand wins. If the deck finishes befo
 ## Setting up field of play 🔧
 First of all the deck get shuffled and both players draws 7 card each one. After that, the first card of the deck is placed.
 
-## Gameplay 🎮
+## Rules 🎮
 The user is the first who starts and he has to put one card on the field. Players have to throw one card each round. If the thrown card is one of the coloured special cards the only thing to check is the colour of the card on the field; if it's a coloured number you need to check the colour or the number; if it's a special card it doesn't matter what's on the field.
+
+## Gameplay 
+If server on, the game is fully playable on the site: https://mangustaunowebapp.netlify.app
 
 ## Credits 📃
 - ilmangusta: https://github.com/ilmangusta
